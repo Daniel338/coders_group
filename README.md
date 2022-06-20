@@ -1,2 +1,2 @@
 # coders_group
-Repositorio => Desarrollo de proyectos en equipo
+Desarrollo de proyectos en equipo
