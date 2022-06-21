@@ -24,5 +24,45 @@ para que todos podamos ver nuestro avance.
 Si aun no tienes acceso al repositorio para realizar cambios:
 - solicita acceso en el grupo de [coders\_group Discord](https://discord.gg/pGrXtdFHua)
 
+## Enlaces a proyectos
+<table>
+    <caption>
+    </caption>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Project</th>
+            <th>Fecha</th>
+            <th>Demo</th>
+            <th>Codigo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>01</td>
+            <td>Section personal</td>
+            <td>20/06/2022</td>
+            <td>
+                <a href="https://daniel338.github.io/coders_group/">Demo</a>
+            </td>
+            <td>
+                <a href="https://github.com/Daniel338/coders_group">Repository</a>
+            </td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+    <tfoot></tfoot>
+</table>
+
 ## 50 Proyectos en 50 dias
 [https://github.com/Nahuel61920/50-Proyectos-en-50-dias](https://github.com/Nahuel61920/50-Proyectos-en-50-dias "Enlace a 50 proyectos")
