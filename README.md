@@ -21,5 +21,8 @@ para que todos podamos ver nuestro avance.
 > Nota: pueden modificar su section de trabajo con estilos CSS externos o
 > archivos Javascript externos, etc.
 
+Si aun no tienes acceso al repositorio para realizar cambios:
+- solicita acceso en el grupo de [coders\ngroup Discord](https://discord.gg/pGrXtdFHua)
+
 ## 50 Proyectos en 50 dias
 [https://github.com/Nahuel61920/50-Proyectos-en-50-dias](https://github.com/Nahuel61920/50-Proyectos-en-50-dias "Enlace a 50 proyectos")
