@@ -33,4 +33,9 @@ Se acordo iniciar con un proyecto pequeño, que use fronted y backed.
 Tal parece que usamos editores de codigo diferentes; eso puede dificultar los <br>
 commits con `git` y los **conflictos de salto de linea**.
 
+---
+
+## Junio 22 del 2022, 22:00 Argentina
+
+
 
