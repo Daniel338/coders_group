@@ -55,10 +55,6 @@ Si aun no tienes acceso al repositorio para realizar cambios:
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
         </tr>
     </tbody>
     <tfoot></tfoot>
