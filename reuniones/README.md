@@ -20,8 +20,6 @@ Preguntas de la presentacion:
 - ¿Que lenguajes o tegnologias usas?
 - ¿Que area de desarrolo te gusta? [Fronted | Backend | Mobile | Desktop | etc]
 
----
-
 Se creo dos repositorios en los que trabajaremos:
 - [coders\_group](https://github.com/Daniel338/coders_group)
 - comunicarse con el grupo de [Discord](https://discord.gg/pGrXtdFHua)
