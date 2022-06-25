@@ -51,6 +51,17 @@ Si aun no tienes acceso al repositorio para realizar cambios:
         </tr>
         <tr>
             <td>02</td>
+            <td>Black Note</td>
+            <td>22/06/2022</td>
+            <td>
+                <a href="https://daniel338.github.io/coders_group/blackNote/">Demo</a>
+            </td>
+            <td>
+                <a href="https://github.com/Daniel338/coders_group/tree/main/blackNote">Repository</a>
+            </td>
+        </tr>
+        <tr>
+            <td>03</td>
             <td></td>
             <td></td>
             <td></td>
