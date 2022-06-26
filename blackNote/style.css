@@ -18,7 +18,7 @@
 /* INICIO RAMA_LUCAS*/
 .row-0{
     color: var(--c-primary);
-    background-color: var(--bg-primary);;
+    background-color: var(--bg-primary);
     display: flex;
     justify-content: space-between;
 }
