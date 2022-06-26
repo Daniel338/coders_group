@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>BlackNote App</title>
 </head>
+
 <body>
     <!-- main start -->
     <main class="main">
@@ -14,30 +17,33 @@
                 <ion-icon name="filter-outline" class="icono"></ion-icon>
             </button>
 
+            <div id="logo" tabindex="3">
+                <h2>BlackNote</h2>
+            </div>
+
             <button id="opciones-btn" tabindex="2">
                 <ion-icon name="ellipsis-vertical-outline" class="icono"></ion-icon>
             </button>
 
-            <div id="logo" tabindex="3">
-                <h2>BlackNote</h2>
-            </div>
+            
         </section>
 
         <section class="row_note-1" tabindex="4">
             <article class="note">
                 <header class="note__top">
                     <button class="note__icon" name="favourite">
-                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-                           <path d="m6.516 14.323-1.49 6.452a.998.998 0 0 0 1.529 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454-2.467-5.461a.998.998 0 0 0-1.822 0L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107zm2.853-4.326a.998.998 0 0 0 .832-.586L12 5.43l1.799 3.981a.998.998 0 0 0 .832.586l3.972.315-3.271 2.944c-.284.256-.397.65-.293 1.018l1.253 4.385-3.736-2.491a.995.995 0 0 0-1.109 0l-3.904 2.603 1.05-4.546a1 1 0 0 0-.276-.94l-3.038-2.962 4.09-.326z">
-                           </path>
-                       </svg> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(0, 0, 0, 1);">
+                            <path
+                                d="m6.516 14.323-1.49 6.452a.998.998 0 0 0 1.529 1.057L12 18.202l5.445 3.63a1.001 1.001 0 0 0 1.517-1.106l-1.829-6.4 4.536-4.082a1 1 0 0 0-.59-1.74l-5.701-.454-2.467-5.461a.998.998 0 0 0-1.822 0L8.622 8.05l-5.701.453a1 1 0 0 0-.619 1.713l4.214 4.107zm2.853-4.326a.998.998 0 0 0 .832-.586L12 5.43l1.799 3.981a.998.998 0 0 0 .832.586l3.972.315-3.271 2.944c-.284.256-.397.65-.293 1.018l1.253 4.385-3.736-2.491a.995.995 0 0 0-1.109 0l-3.904 2.603 1.05-4.546a1 1 0 0 0-.276-.94l-3.038-2.962 4.09-.326z">
+                            </path>
+                        </svg>
                     </button>
                     <h4 class="note__category">Git</h4>
                 </header>
                 <h3 class="note__title">Titulo</h3>
                 <footer class="note__bottom">
                     <button class="note__icon" name="check">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style="fill: rgba(0, 0, 0, 1);">
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z">
                             </path>
                         </svg>
@@ -46,14 +52,11 @@
             </article>
         </section>
 
-
-
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
 
     </main>
     <!-- main end -->
 </body>
+
 </html>
