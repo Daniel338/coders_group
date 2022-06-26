@@ -12,10 +12,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
 /* INICIO RAMA_LUCAS*/
 .row-0{
-    color: white;
-    background-color: rgb(44, 44, 44);
+    color: var(--c-primary);
+    background-color: var(--bg-primary);;
     display: flex;
     justify-content: space-between;
 }
@@ -24,36 +27,26 @@
     font-size: 30px;
     margin: 13px;
 }
-.row-0 h2{
+.row-0 #logo h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     padding-top: 7px;
 }
-.row-0 #orden-btn{
+
+.row-0 .btn{
     background-color: transparent;
     border: none;
     color: white;
+    border-radius: 5px;
 }
-    .row-0 #orden-btn:hover{
-        background-color: rgb(14, 14, 14);
-    }
-    .row-0 #orden-btn:active{
-        background-color: rgb(44, 44, 44);
-    }
-
-.row-0 #opciones-btn{
-    background-color: transparent;
-    border: none;
-    color: white;
+.row-0 .btn:hover{
+    background-color: #101418;
 }
-    .row-0 #opciones-btn:hover{
-        background-color: rgb(14, 14, 14);    
-    }
-    .row-0 #opciones-btn:active{
-        background-color: rgb(44, 44, 44);
-    }
-
+.row-0 .btn:active{
+    background-color: var(--bg-primary);;
+}
 /* FIN RAMA_LUCAS*/
+
 
 
 
