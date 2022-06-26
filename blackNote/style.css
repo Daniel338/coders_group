@@ -1,0 +1,88 @@
+:root
+{
+    --bg-primary: #1e272e;
+    --c-primary: #ddd;
+}
+
+*,
+*::before,
+*::after
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* rama_daniel start */
+.main .row_note-1
+{
+    width: 100vw;
+    min-height: 60vh;
+    background: var(--bg-primary);
+    color: var(--c-primary);
+    padding: 10px 50px;
+}
+
+.main .row_note-1 .note
+{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 200px;
+    border-radius: 10px;
+    background: #2f3640;
+}
+
+.main .row_note-1 .note::focus
+{
+    outline: 2px solid #333;
+}
+
+.main .row_note-1 .note .note__top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 8px 0 5px;
+}
+
+.main .row_note-1 .note .note__top .note__icon
+{
+    border: none;
+    background: none;
+}
+
+.main .row_note-1 .note .note__top .note__icon svg
+{
+    fill: #20bf6b;
+    stroke-width: 0;
+}
+
+.main .row_note-1 .note .note__title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2 0 auto;
+    font-size: 1.5rem;
+}
+
+.main .row_note-1 .note .note__bottom
+{
+    text-align: right;
+    padding: 0 5px;
+}
+
+.main .row_note-1 .note .note__bottom .note__icon
+{
+    border: none;
+    background: none;
+}
+
+.main .row_note-1 .note .note__bottom .note__icon svg
+{
+    stroke: #44bd32;
+}
+
+/* rama_daniel end */
