@@ -12,6 +12,50 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* INICIO RAMA_LUCAS*/
+.row-0{
+    color: white;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-0 .icono{
+    font-size: 30px;
+    margin: 13px;
+}
+.row-0 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 7px;
+}
+.row-0 #orden-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+    .row-0 #orden-btn:hover{
+        background-color: rgb(14, 14, 14);
+    }
+    .row-0 #orden-btn:active{
+        background-color: rgb(44, 44, 44);
+    }
+
+.row-0 #opciones-btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+    .row-0 #opciones-btn:hover{
+        background-color: rgb(14, 14, 14);    
+    }
+    .row-0 #opciones-btn:active{
+        background-color: rgb(44, 44, 44);
+    }
+
+/* FIN RAMA_LUCAS*/
+
+
 
 /* rama_daniel start */
 .main .row_note-1
