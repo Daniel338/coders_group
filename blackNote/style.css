@@ -45,6 +45,54 @@
 .row-0 .btn:active{
     background-color: var(--bg-primary);;
 }
+
+
+
+/* ================================================= */
+.row-1{
+    background-color: lightslategray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.note1{
+    width: 170px;
+    height: 200px;
+    background-color: #2f3640;
+    border-radius: 10px;
+    color: var(--c-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 10px;
+}
+
+.note1 header .icon,
+.note1 header .categoria,
+.note1 footer button{
+    margin: 10px;
+    font-size: 22px;
+    background: transparent;
+    border: none;
+    color: var(--c-primary);
+}
+.note1 header .favorite:hover,
+.note1 footer .check:hover{
+    color: rgb(7, 219, 7);
+}
+.note1 header{
+    display: flex;
+    justify-content: space-between;
+}
+.note1 .titulo{
+    font-size: 25px;
+    text-align: center;
+}
+.note1 footer{
+    display: flex;
+    justify-content: flex-end;
+}
+/* ============================================ */
 /* FIN RAMA_LUCAS*/
 
 
