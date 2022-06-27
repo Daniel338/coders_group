@@ -58,6 +58,7 @@
     background: var(--bg-primary);
     color: var(--c-primary);
     padding: 10px 50px;
+    border-top: 1px solid var(--c-primary);
 }
 
 .main .row_note-1 .note
@@ -68,6 +69,7 @@
     height: 200px;
     border-radius: 10px;
     background: #2f3640;
+    cursor: pointer;
 }
 
 .main .row_note-1 .note::focus
@@ -92,8 +94,23 @@
 
 .main .row_note-1 .note .note__top .note__icon svg
 {
+    /* fill: #20bf6b; */
+    fill: none;
+    stroke: var(--c-primary);
+    stroke-width: 1;
+}
+
+.main .row_note-1 .note .note__top .note__icon svg:hover
+{
     fill: #20bf6b;
+    stroke: none;
     stroke-width: 0;
+}
+
+.main .row_note-1 .note .note__top .note__category
+{
+    font-size: 1.05rem;
+    font-family: "Georgia", serif;
 }
 
 .main .row_note-1 .note .note__title
