@@ -19,6 +19,7 @@
     background-color: var(--bg-primary);
     display: flex;
     justify-content: space-between;
+    padding: 0 50px;
 }
 
 .row-0 .icono{
@@ -51,7 +52,7 @@
     background-color: lightslategray;
     display: grid;
     grid-template-columns: repeat(auto-fill, 170px);
-    padding: 20px;
+    padding: 20px 50px;
     gap: 20px;
 }
 .note1{
@@ -118,7 +119,7 @@
     width: 100vw;
     background: var(--bg-primary);
     color: var(--c-primary);
-    padding: 10px 50px;
+    padding: 0 50px;
     border-top: 1px solid var(--c-primary);
 
 }
