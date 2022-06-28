@@ -51,13 +51,12 @@
 .row-1{
     background-color: lightslategray;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 170px);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-auto-rows: 200px;
     padding: 20px 50px;
     gap: 20px;
 }
 .note1{
-    width: 170px;
-    height: 200px;
     background-color: #2f3640;
     border-radius: 10px;
     color: var(--c-primary);
