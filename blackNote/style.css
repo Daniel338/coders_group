@@ -97,7 +97,7 @@
 
 
 /* rama_daniel start */
-.main .row_note-1
+.main .row_note-1 
 {
     width: 100vw;
     min-height: 60vh;
@@ -105,6 +105,15 @@
     color: var(--c-primary);
     padding: 10px 50px;
     border-top: 1px solid var(--c-primary);
+}
+
+.row_note-footer{
+    width: 100vw;
+    background: var(--bg-primary);
+    color: var(--c-primary);
+    padding: 10px 50px;
+    border-top: 1px solid var(--c-primary);
+
 }
 
 .main .row_note-1 .note
@@ -186,3 +195,16 @@
 }
 
 /* rama_daniel end */
+
+#footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+} 
+
+#start-footer{
+    background-color: #20bf6b;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
