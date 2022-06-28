@@ -74,6 +74,13 @@
     border: none;
     color: var(--c-primary);
 }
+
+.note1 header .categoria
+{
+    font-size: 20px;
+}
+
+
 .note1 header .favorite:hover,
 .note1 footer .check:hover{
     color: rgb(7, 219, 7);
