@@ -13,6 +13,12 @@
     box-sizing: border-box;
 }
 
+/* quitar barra desplazadora*/
+::-webkit-scrollbar
+{
+    display: none;
+}
+
 /* INICIO RAMA_LUCAS*/
 .row-0{
     color: var(--c-primary);
@@ -20,6 +26,12 @@
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 60px;
 }
 
 .row-0 .icono{
@@ -53,7 +65,8 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-auto-rows: 200px;
-    padding: 20px 50px;
+    padding: 70px 50px;
+    height: 100vh;
     gap: 20px;
 }
 .note1{
@@ -115,7 +128,12 @@
 }
 
 .row_note-footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
     width: 100vw;
+    height: 60px;
     background: var(--bg-primary);
     color: var(--c-primary);
     padding: 0 50px;
@@ -207,7 +225,11 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
-} 
+}
+
+#footer ul li i{
+    font-size: 1em; 
+}
 
 #start-footer{
     background-color: #20bf6b;
