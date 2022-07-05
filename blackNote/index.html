@@ -11,6 +11,28 @@
 <body>
     <!-- main start -->
     <main class="main">
+        <!-- ===================== FORMULARIO =========================== -->
+    <form action="" id="notaFormulario" onsubmit="return false;">
+        <fieldset>
+            <legend>NOTA:</legend>
+            <label for="">Titulo</label><br>
+            <input type="text" id="tituloInput" placeholder="Escribe titulo"><br>
+            <label for="">Categoria</label><br>
+            <input type="text" id="categoriaInput" placeholder="Escribe categoria"><br>
+            <label for="">Favorito</label>
+            <select name="" id="favoritoSelect">
+                <option value="true">SI</option>
+                <option value="false" selected>NO</option>
+            </select><br>
+            <label for="">Nota:</label><br>
+            <textarea name="" id="textoArea" cols="35" rows="10" placeholder="Escribe nota" ></textarea><br>
+        </fieldset>
+        <button onclick="agregarNota()">Guardar</button>
+        <input type="reset">
+        <button onclick="cerrarFormularioNota()">Cerrar</button>
+    </form>
+    <!-- ===========FIN FORMULARIO ========================== -->
+    
         <section class="row-0">
             <button class="btn" tabindex="1">
                 <ion-icon name="filter-outline" class="icono"></ion-icon>
@@ -38,8 +60,8 @@
                     <li>
                         <i class="fa-solid fa-magnifying-glass fa-4x"></i>
                     </li>
-                    <li>
-                        <i class="fa-solid fa-plus fa-4x" id="start-footer"></i>
+                    <li onclick="mostrarFormularioNota()">
+                        <i class="fa-solid fa-plus fa-4x" id="start-footer" ></i>
                     </li>
                     <li>
                         <i class="fa-solid fa-star fa-4x"></i>
@@ -50,9 +72,12 @@
                 </ul>
             </div>
         </footer>
-        
+
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>        
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>       
+        
+        <script src="nota.js"></script>
+        <script src="app.js"></script>
 
     </main>
     <!-- main end -->

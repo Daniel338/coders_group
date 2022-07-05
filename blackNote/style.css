@@ -22,6 +22,32 @@
 main{
     position: relative;
 }
+/* ==== FORMULARIO ========= */
+#notaFormulario{
+    background-image: linear-gradient(10deg, #415460 0, #1f4459 50%, #003453 100%);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    padding: 15px;
+    display: none;
+    border-radius: 15px;
+}
+
+#notaFormulario button,
+#notaFormulario input[type="reset"]{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    
+}
+#notaFormulario #textoArea{
+    overflow-y: scroll;
+    margin: 5px 20px;
+}
+
+/*  ===== FIN FORMULARIO ===== */
 
 /* INICIO RAMA_LUCAS*/
 .row-0{
