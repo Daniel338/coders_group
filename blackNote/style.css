@@ -1,8 +1,11 @@
 :root
 {
     --bg-primary: #1e272e;
+    --bg-gray: #718093;
     --c-primary: #ddd;
+    --c-green: #20bf6b;
     --icon-size: 2rem;
+    --text-size: 1.5rem;
 }
 
 *,
@@ -18,6 +21,10 @@
 ::-webkit-scrollbar
 {
     display: none;
+}
+
+body{
+    position: relative;
 }
 
 /* INICIO RAMA_LUCAS*/
@@ -245,4 +252,54 @@
     box-sizing: border-box;
     border-radius: 50%;
     font-size: calc(var(--icon-size) + 1rem);
+}
+
+/* modal type note */
+.type_of_note
+{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background: #353b48bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type_of_note .container
+{
+    width: 30vw;
+    height: 30vh;
+    color: var(--c-green);
+    background: var(--bg-primary);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.type_of_note .container .type_note,
+.type_of_note .container .type_check 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--text-size);
+    background: none;
+    border: none;
+    color: inherit;
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+
+.type_of_note .container .type_note:hover,
+.type_of_note .container .type_check:hover {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.type_of_note .container .type_check {
+    box-shadow: 0 -1px 1px 0 #ddd;
 }
