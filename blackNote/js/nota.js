@@ -50,12 +50,6 @@ class Nota{
         this._fechaCreacion = fechaCreacion;
     }
 }
-notas.push(new Nota("titulo8", "categoria6", true, "nota8"));
-notas.push(new Nota("titulo2", "categoria8", false, "nota2"));
-notas.push(new Nota("titulo1", "categoria7", true, "nota1"));
-notas.push(new Nota("titulo3", "categoria9", false, "nota3"));
-
-
 const mostrarNotas = (listaDeNotas)=> {
     let textoHTML = "";
 
