@@ -23,31 +23,144 @@ main{
     position: relative;
 }
 /* ==== FORMULARIO ========= */
-#notaFormulario{
-    background-image: linear-gradient(10deg, #415460 0, #1f4459 50%, #003453 100%);
+.formulario_nota{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity .5s .5s;
+    --ubicacion: translateY(-100vh); 
+    --transition: transform .5s;
+}
+.formulario_nota--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .5s;    
+    --ubicacion: translateY(0);
+    --transition: transform .5s .4s;
+}
+.formulario_nota_contenedor{
+    margin: auto;
+    width: 90%;
+    max-width: 310px;
+    height: 90%;
+    display: flex;
+    transform: var(--ubicacion); 
+    transition: var(--transition);
+}
+
+#formulario{
+    background-image: linear-gradient(10deg, #1c1c1d 0, #0b344d 50%, #161718 100%);
     text-align: center;
     color: white;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    padding: 15px;
-    display: none;
+    padding: 15px 45px;
+    border-radius: 15px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#formulario textarea{
+    overflow-y: scroll;
+}
+.botones_formulario{
+    background: #1e405a;
+    color: white;
+    padding: 1em;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .5s;
+    margin-top: 10px;
+}
+.botones_formulario:hover{
+    color: #1e405a;
+    background-color: white;
+}
+#formulario > input, textarea{
+    padding: 5px 10px;
     border-radius: 15px;
 }
 
-#notaFormulario button,
-#notaFormulario input[type="reset"]{
+#formulario input:focus,
+#formulario textarea:focus{
+    background-color: wheat;
+}
+/*  ===== FIN FORMULARIO ===== */
+
+
+/* ========= FILTRO =============*/
+.filtro{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.781);
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity .3s .5s;
+    --ubicacion: translateY(-100vh);
+    --duracionTransition: transform .5s; /* para cuando sube*/
+}
+.filtro--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .3s; /* rapido*/
+
+    --ubicacion: translateY(0);
+    --duracionTransition: transform .5s .3s; /* Lento - cuando baja */
+}
+.filtro_contenedor{
+    width: 90%;
+    max-width: 310px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #1e405a;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+
+    transform: var(--ubicacion);
+    transition: var(--duracionTransition);
+}
+.filtro_lista{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.filtro_contenedor h3{
     display: inline-block;
+}
+.filtro_lista li{
+    margin: 20px;
+    list-style: none;
+    border: 1px solid rgb(155, 76, 76);
+    border-radius: 10px;
     padding: 10px;
-    margin: 5px;
+}
+.filtro_lista li:hover{
+    background-color: wheat;
+    color: black;
     
 }
-#notaFormulario #textoArea{
-    overflow-y: scroll;
-    margin: 5px 20px;
-}
 
-/*  ===== FIN FORMULARIO ===== */
+/* ========= FIN FILTRO =============*/
 
 /* INICIO RAMA_LUCAS*/
 .row-0{
@@ -73,7 +186,6 @@ main{
     font-size: 40px;
     padding-top: 7px;
 }
-
 .row-0 .btn{
     background-color: transparent;
     border: none;
@@ -89,7 +201,7 @@ main{
 
 
 
-/* ================================================= */
+/* ===================== fila 1 mia ============================ */
 .row-1{
     background-color: lightslategray;
     display: grid;
@@ -147,6 +259,7 @@ main{
 
 
 /* rama_daniel start */
+
 .main .row_note-1 
 {
     width: 100vw;
@@ -182,13 +295,11 @@ main{
     cursor: pointer;
 }
 
-.main .row_note-1 .note::focus
-{
+.main .row_note-1 .note::focus{
     outline: 2px solid #333;
 }
 
-.main .row_note-1 .note .note__top
-{
+.main .row_note-1 .note .note__top{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,15 +307,14 @@ main{
     padding: 8px 8px 0 5px;
 }
 
-.main .row_note-1 .note .note__top .note__icon
-{
+.main .row_note-1 .note .note__top .note__icon{
     border: none;
     background: none;
 }
 
 .main .row_note-1 .note .note__top .note__icon svg
 {
-    /* fill: #20bf6b; */
+    fill: #20bf6b;
     fill: none;
     stroke: var(--c-primary);
     stroke-width: 1;
