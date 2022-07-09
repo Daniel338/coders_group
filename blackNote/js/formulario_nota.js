@@ -36,7 +36,7 @@ const crearNotaHTML = (nota) => {
         <ion-icon name="star-outline" class="icon favorite"></ion-icon>
         <h3 class="categoria">${nota.categoria}</h3>
     </header>
-    <div onclick="abrirNota(ponerIndiceNotaHTML())">
+    <div>
         <h3 class="titulo">${nota.titulo}</h3>
     </div>
     <footer>
@@ -45,9 +45,4 @@ const crearNotaHTML = (nota) => {
         </button>
     </footer>
 </article>
-`;
-}
-const ponerIndiceNotaHTML = () =>{ //con esto le agrego un indice a cada nota en
-    //la grilla para despues llamar a la funcion mostrar nota con su indice
-return (notas.length-1);
-}
+`;}
