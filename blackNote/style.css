@@ -138,26 +138,23 @@ main{
     transform: var(--ubicacion);
     transition: var(--duracionTransition);
 }
-.filtro_lista{
-    width: 100%;
+.filtro_contenedor h3{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.filtro .filtro_opc_contenedor{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.filtro_contenedor h3{
-    display: inline-block;
-}
-.filtro_lista li{
-    margin: 20px;
-    list-style: none;
+.filtro .filtro_opc_contenedor button{
     border: 1px solid rgb(155, 76, 76);
     border-radius: 10px;
     padding: 10px;
 }
-.filtro_lista li:hover{
+.filtro .filtro_opc_contenedor button:hover{
     background-color: wheat;
     color: black;
-    
 }
 
 /* ========= FIN FILTRO =============*/
